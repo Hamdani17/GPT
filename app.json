@@ -1,0 +1,17 @@
+{
+    "name": "your-app-name",
+    "description": "Telegram Username Checker Bot",
+    "repository": "https://github.com/your-username/your-repo",
+    "keywords": ["telegram", "bot"],
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "heroku/php"
+      }
+    ],
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Telegram Bot Token"
+      }
+    }
+  }
